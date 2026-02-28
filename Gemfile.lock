@@ -665,7 +665,7 @@ DEPENDENCIES
   annotaterb (~> 4.19)
   audits1984 (~> 0.1.7)
   awesome_print (~> 1.9)
-  aws-sdk-s3 (~> 1.189)
+  aws-sdk-s3 (~> 1.213.0)
   bcrypt (~> 3.1)
   blind_index (~> 2.7)
   bootsnap
