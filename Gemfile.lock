@@ -568,12 +568,13 @@ GEM
     securerandom (0.4.1)
     semantic_logger (4.17.0)
       concurrent-ruby (~> 1.0)
-    sentry-rails (5.28.1)
-      railties (>= 5.0)
-      sentry-ruby (~> 5.28.1)
-    sentry-ruby (5.28.1)
+    sentry-rails (6.4.0)
+      railties (>= 5.2.0)
+      sentry-ruby (~> 6.4.0)
+    sentry-ruby (6.4.0)
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
+      logger
     serve_byte_range (1.0.0)
       rack (>= 1.0)
     slack-ruby-client (2.7.0)
@@ -719,8 +720,8 @@ DEPENDENCIES
   rubocop-rails-omakase
   ruby-vips (~> 2.2)
   saml2 (~> 3.2)
-  sentry-rails (~> 5.22)
-  sentry-ruby (~> 5.22)
+  sentry-rails (~> 6.4)
+  sentry-ruby (~> 6.4)
   slack-ruby-client (~> 2.6)
   slocks (~> 0.1.0)
   superform (~> 0.5.1)
